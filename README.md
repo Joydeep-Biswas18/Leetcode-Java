@@ -17,14 +17,7 @@ This repository contains my accepted solutions to LeetCode problems. It is autom
 - 🔥 Building a consistent coding streak
 - 🧠 Focusing on DSA and algorithms
 
-## 📂 Repository Structure
 
-```
-├── Easy/
-├── Medium/
-├── Hard/
-└── README.md
-```
 
 Each solution contains:
 - Problem name
