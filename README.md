@@ -58,3 +58,15 @@ Each solution contains:
 ---
 
 ⭐ If you find this repository helpful, feel free to star it!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
+<!---LeetCode Topics End-->
