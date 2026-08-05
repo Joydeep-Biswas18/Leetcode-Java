@@ -65,8 +65,10 @@ Each solution contains:
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 ## Two Pointers
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
