@@ -68,6 +68,7 @@ Each solution contains:
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 ## Two Pointers
 |  |
 | ------- |
@@ -76,6 +77,7 @@ Each solution contains:
 ## Math
 |  |
 | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3345-smallest-divisible-digit-product-i) |
 ## Enumeration
 |  |
@@ -89,12 +91,15 @@ Each solution contains:
 |  |
 | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 ## Sliding Window
 |  |
 | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
