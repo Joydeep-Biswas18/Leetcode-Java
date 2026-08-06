@@ -71,4 +71,12 @@ Each solution contains:
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
+## Math
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3345-smallest-divisible-digit-product-i) |
+## Enumeration
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3345-smallest-divisible-digit-product-i) |
 <!---LeetCode Topics End-->
