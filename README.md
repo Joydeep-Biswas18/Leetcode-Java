@@ -66,6 +66,7 @@ Each solution contains:
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
+| [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 ## Two Pointers
 |  |
 | ------- |
@@ -79,4 +80,8 @@ Each solution contains:
 |  |
 | ------- |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3345-smallest-divisible-digit-product-i) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
