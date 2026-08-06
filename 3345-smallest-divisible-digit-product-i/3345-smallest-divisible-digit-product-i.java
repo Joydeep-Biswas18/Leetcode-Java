@@ -4,11 +4,12 @@ class Solution {
         if (n % 10 == 0) {
             return n;
         }
-        for (int i=n; i<=100; i++){
-            if(product(i)%t==0){
-                return i;
+        while(n<100){
+            if(product(n)%t==0){
+                return n;
                 // break;
             }
+            n++;
             
         }
         return n;
