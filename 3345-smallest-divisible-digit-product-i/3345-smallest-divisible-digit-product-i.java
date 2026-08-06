@@ -4,7 +4,7 @@ class Solution {
         if (n % 10 == 0) {
             return n;
         }
-        while(n<100){
+        while(n>0){
             if(product(n)%t==0){
                 return n;
                 // break;
