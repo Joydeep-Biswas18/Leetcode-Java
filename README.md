@@ -70,6 +70,7 @@ Each solution contains:
 | [0033-search-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0033-search-in-rotated-sorted-array) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0066-plus-one](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0066-plus-one) |
+| [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0118-pascals-triangle](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0119-pascals-triangle-ii) |
@@ -85,6 +86,7 @@ Each solution contains:
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 ## Math
@@ -133,4 +135,16 @@ Each solution contains:
 | ------- |
 | [0118-pascals-triangle](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0119-pascals-triangle-ii) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
