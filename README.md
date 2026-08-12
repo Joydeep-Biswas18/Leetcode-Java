@@ -81,6 +81,7 @@ Each solution contains:
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Two Pointers
 |  |
@@ -117,6 +118,7 @@ Each solution contains:
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Sliding Window
 |  |
@@ -124,6 +126,7 @@ Each solution contains:
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Prefix Sum
 |  |
 | ------- |
