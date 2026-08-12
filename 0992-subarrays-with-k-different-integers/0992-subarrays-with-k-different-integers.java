@@ -8,13 +8,13 @@ class Solution {
         int right = 0;
         int count = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
+        if (k <= 0) {
+            return 0;
+        }
 
         while (right < nums.length) {
             map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
 
-            if (k <= 0) {
-                return 0;
-            }
             while (map.size() > k) {
 
                 int value = nums[left];
