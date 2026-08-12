@@ -79,6 +79,7 @@ Each solution contains:
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Two Pointers
@@ -114,12 +115,14 @@ Each solution contains:
 | [0001-two-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Sliding Window
 |  |
 | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
@@ -147,4 +150,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
+## Counting
+|  |
+| ------- |
+| [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 <!---LeetCode Topics End-->
