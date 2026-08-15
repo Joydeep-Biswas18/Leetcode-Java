@@ -99,6 +99,7 @@ Each solution contains:
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
@@ -184,4 +185,8 @@ Each solution contains:
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
