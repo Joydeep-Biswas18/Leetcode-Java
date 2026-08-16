@@ -82,6 +82,7 @@ Each solution contains:
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
+| [0485-max-consecutive-ones](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
