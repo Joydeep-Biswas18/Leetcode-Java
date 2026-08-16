@@ -1,36 +1,32 @@
 class Solution {
+    //OPTIMAL SOLUTION USING TWO-POINTER AND SLIDING WINDOW
     public int subarraysWithKDistinct(int[] nums, int k) {
-        return Optimal_solution(nums, k) - Optimal_solution(nums, k - 1);
+
+        return no_subarray_k_different(nums, k) - no_subarray_k_different(nums, k - 1);
     }
 
-    public int Optimal_solution(int[] nums, int k) {
-        int left = 0;
-        int right = 0;
+    public int no_subarray_k_different(int[] nums, int k) {
+        int l = 0;
+        int r = 0;
         int count = 0;
-        HashMap<Integer, Integer> map = new HashMap<>();
         if (k <= 0) {
             return 0;
         }
-
-        while (right < nums.length) {
-            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        while (r < nums.length) {
+            map.put(nums[r], map.getOrDefault(nums[r], 0) + 1);
 
             while (map.size() > k) {
-
-                int value = nums[left];
-
-                map.put(value, map.get(value) - 1);
-
-                if (map.get(value) == 0) {
-                    map.remove(value);
+                map.put(nums[l], map.get(nums[l]) - 1);
+                if (map.get(nums[l]) == 0) {
+                    map.remove(nums[l]);
                 }
-
-                left++;
+                l++;
             }
-            count += (right - left + 1);
-            right++;
+            count += (r - l + 1);
+            r++;
+
         }
         return count;
     }
-
 }
