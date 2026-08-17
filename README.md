@@ -87,6 +87,7 @@ Each solution contains:
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
+| [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
@@ -107,6 +108,7 @@ Each solution contains:
 | [0050-powx-n](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
+| [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -172,6 +174,7 @@ Each solution contains:
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
+| [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 ## Quicksort
 |  |
 | ------- |
