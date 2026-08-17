@@ -69,6 +69,7 @@ Each solution contains:
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0040-combination-sum-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
@@ -191,6 +192,7 @@ Each solution contains:
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0046-permutations) |
 ## String
 |  |
