@@ -73,6 +73,7 @@ Each solution contains:
 | [0040-combination-sum-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0066-plus-one) |
@@ -173,6 +174,7 @@ Each solution contains:
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
@@ -201,6 +203,7 @@ Each solution contains:
 | [0039-combination-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0051-n-queens) |
 | [0216-combination-sum-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0216-combination-sum-iii) |
 ## String
