@@ -87,6 +87,7 @@ Each solution contains:
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
@@ -137,6 +138,7 @@ Each solution contains:
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
@@ -181,6 +183,7 @@ Each solution contains:
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 ## Quicksort
 |  |
@@ -194,6 +197,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 ## Divide and Conquer
 |  |
@@ -223,6 +227,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 ## Algorithm X
 |  |
 | ------- |
