@@ -98,6 +98,7 @@ Each solution contains:
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Two Pointers
@@ -157,6 +158,7 @@ Each solution contains:
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Prefix Sum
@@ -166,6 +168,7 @@ Each solution contains:
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Matrix
 |  |
 | ------- |
