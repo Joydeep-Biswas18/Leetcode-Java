@@ -76,6 +76,7 @@ Each solution contains:
 | [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -185,6 +186,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
@@ -193,6 +195,7 @@ Each solution contains:
 ## Quicksort
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 ## Bubble Sort
 |  |
