@@ -65,6 +65,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0033-search-in-rotated-sorted-array) |
@@ -106,6 +107,7 @@ Each solution contains:
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
@@ -242,4 +244,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0051-n-queens) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
