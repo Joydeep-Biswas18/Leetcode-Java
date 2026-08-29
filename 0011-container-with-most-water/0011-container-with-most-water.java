@@ -13,19 +13,19 @@ class Solution {
                 left++;
 
             }
-            else if(height[left]>height[right]){
+            else{
                 
                 water_area = height[right]*(right-left);
                 right--;
                 Area = Math.max(water_area, Area);
             }
-            else{
-                water_area = height[left]*(right-left);
-                Area = Math.max(water_area, Area);
-                left++;
-                right--;
+            // else{
+            //     water_area = height[left]*(right-left);
+            //     Area = Math.max(water_area, Area);
+            //     left++;
+            //     right--;
 
-            }
+            // }
 
         }
         return Area;
