@@ -248,4 +248,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0011-container-with-most-water) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
