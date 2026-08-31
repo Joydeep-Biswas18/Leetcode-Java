@@ -96,6 +96,7 @@ Each solution contains:
 | [0485-max-consecutive-ones](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
 | [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
@@ -170,6 +171,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
