@@ -114,6 +114,7 @@ Each solution contains:
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -196,6 +197,7 @@ Each solution contains:
 | [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
@@ -219,6 +221,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 ## Backtracking
 |  |
@@ -259,7 +262,12 @@ Each solution contains:
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0021-merge-two-sorted-lists) |
+| [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0203-remove-linked-list-elements) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0237-delete-node-in-a-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
