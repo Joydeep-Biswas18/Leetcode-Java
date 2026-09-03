@@ -116,6 +116,7 @@ Each solution contains:
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Math
 |  |
 | ------- |
@@ -258,4 +259,5 @@ Each solution contains:
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0203-remove-linked-list-elements](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0203-remove-linked-list-elements) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0237-delete-node-in-a-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 <!---LeetCode Topics End-->
