@@ -112,6 +112,7 @@ Each solution contains:
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
+| [0061-rotate-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
@@ -262,6 +263,7 @@ Each solution contains:
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0021-merge-two-sorted-lists) |
+| [0061-rotate-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0061-rotate-list) |
 | [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0203-remove-linked-list-elements) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0237-delete-node-in-a-linked-list) |
