@@ -115,6 +115,7 @@ Each solution contains:
 | [0061-rotate-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0142-linked-list-cycle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
@@ -148,6 +149,7 @@ Each solution contains:
 | [0001-two-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
+| [0142-linked-list-cycle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
@@ -267,6 +269,7 @@ Each solution contains:
 | [0025-reverse-nodes-in-k-group](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0142-linked-list-cycle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0203-remove-linked-list-elements) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0237-delete-node-in-a-linked-list) |
@@ -275,4 +278,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0148-sort-list) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0142-linked-list-cycle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0142-linked-list-cycle-ii) |
 <!---LeetCode Topics End-->
