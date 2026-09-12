@@ -93,6 +93,7 @@ Each solution contains:
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
@@ -121,6 +122,7 @@ Each solution contains:
 | [0160-intersection-of-two-linked-lists](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Math
 |  |
@@ -143,6 +145,7 @@ Each solution contains:
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 ## Hash Table
@@ -287,4 +290,13 @@ Each solution contains:
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0142-linked-list-cycle-ii) |
+| [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
