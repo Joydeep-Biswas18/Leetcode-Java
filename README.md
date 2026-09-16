@@ -127,6 +127,7 @@ Each solution contains:
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Math
 |  |
 | ------- |
@@ -205,6 +206,7 @@ Each solution contains:
 | [0119-pascals-triangle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0152-maximum-product-subarray) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Sorting
 |  |
 | ------- |
@@ -252,6 +254,7 @@ Each solution contains:
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Recursion
 |  |
@@ -273,6 +276,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0011-container-with-most-water) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Linked List
 |  |
 | ------- |
