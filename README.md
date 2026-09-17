@@ -73,6 +73,7 @@ Each solution contains:
 | [0039-combination-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0051-n-queens) |
@@ -115,6 +116,7 @@ Each solution contains:
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -201,6 +203,7 @@ Each solution contains:
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0119-pascals-triangle-ii) |
@@ -314,9 +317,11 @@ Each solution contains:
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
