@@ -98,6 +98,7 @@ Each solution contains:
 | [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
@@ -319,9 +320,11 @@ Each solution contains:
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
