@@ -93,6 +93,7 @@ Each solution contains:
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
@@ -166,6 +167,7 @@ Each solution contains:
 | [0160-intersection-of-two-linked-lists](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0229-majority-element-ii) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
@@ -180,6 +182,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
+| [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
