@@ -161,6 +161,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0138-copy-list-with-random-pointer) |
@@ -182,6 +183,7 @@ Each solution contains:
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0239-sliding-window-maximum) |
@@ -261,6 +263,7 @@ Each solution contains:
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
