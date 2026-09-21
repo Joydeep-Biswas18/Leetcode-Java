@@ -268,6 +268,7 @@ Each solution contains:
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3498-reverse-degree-of-a-string](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Recursion
 |  |
 | ------- |
@@ -351,4 +352,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0239-sliding-window-maximum) |
+## Simulation
+|  |
+| ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3498-reverse-degree-of-a-string) |
 <!---LeetCode Topics End-->
