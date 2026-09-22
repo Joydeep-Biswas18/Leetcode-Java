@@ -87,6 +87,7 @@ Each solution contains:
 | [0118-pascals-triangle](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0128-longest-consecutive-sequence) |
 | [0152-maximum-product-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
@@ -164,6 +165,7 @@ Each solution contains:
 | [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0041-first-missing-positive](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
+| [0128-longest-consecutive-sequence](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0160-intersection-of-two-linked-lists) |
@@ -356,4 +358,8 @@ Each solution contains:
 |  |
 | ------- |
 | [3498-reverse-degree-of-a-string](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3498-reverse-degree-of-a-string) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
