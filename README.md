@@ -140,6 +140,7 @@ Each solution contains:
 | [0050-powx-n](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
+| [0836-rectangle-overlap](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0836-rectangle-overlap) |
 | [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
@@ -362,4 +363,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0128-longest-consecutive-sequence) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
