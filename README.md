@@ -113,6 +113,7 @@ Each solution contains:
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Two Pointers
 |  |
 | ------- |
@@ -145,6 +146,7 @@ Each solution contains:
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Enumeration
 |  |
 | ------- |
