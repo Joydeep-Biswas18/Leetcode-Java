@@ -92,6 +92,7 @@ Each solution contains:
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0189-rotate-array) |
+| [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
@@ -159,6 +160,7 @@ Each solution contains:
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
@@ -192,6 +194,7 @@ Each solution contains:
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0239-sliding-window-maximum) |
 | [0904-fruit-into-baskets](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0904-fruit-into-baskets) |
@@ -206,6 +209,7 @@ Each solution contains:
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
