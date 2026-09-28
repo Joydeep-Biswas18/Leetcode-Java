@@ -105,6 +105,7 @@ Each solution contains:
 | [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
+| [0713-subarray-product-less-than-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
 | [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 | [0904-fruit-into-baskets](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0904-fruit-into-baskets) |
@@ -163,6 +164,7 @@ Each solution contains:
 | [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
+| [0713-subarray-product-less-than-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 ## Hash Table
 |  |
@@ -197,6 +199,7 @@ Each solution contains:
 | [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0239-sliding-window-maximum) |
+| [0713-subarray-product-less-than-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0992-subarrays-with-k-different-integers) |
@@ -211,6 +214,7 @@ Each solution contains:
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0560-subarray-sum-equals-k) |
+| [0713-subarray-product-less-than-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
