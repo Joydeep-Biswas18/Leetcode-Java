@@ -107,6 +107,7 @@ Each solution contains:
 | [0704-binary-search](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0735-asteroid-collision) |
 | [0891-sum-of-subsequence-widths](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0891-sum-of-subsequence-widths) |
 | [0904-fruit-into-baskets](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0930-binary-subarrays-with-sum) |
@@ -346,6 +347,7 @@ Each solution contains:
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0735-asteroid-collision) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -371,6 +373,7 @@ Each solution contains:
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0735-asteroid-collision) |
 | [3498-reverse-degree-of-a-string](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Union-Find
 |  |
