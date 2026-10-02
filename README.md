@@ -229,6 +229,7 @@ Each solution contains:
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0118-pascals-triangle) |
@@ -273,6 +274,7 @@ Each solution contains:
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0046-permutations) |
@@ -283,6 +285,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -387,4 +390,8 @@ Each solution contains:
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0836-rectangle-overlap) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
