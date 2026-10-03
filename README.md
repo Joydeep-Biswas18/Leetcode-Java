@@ -230,6 +230,7 @@ Each solution contains:
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0118-pascals-triangle) |
@@ -286,6 +287,7 @@ Each solution contains:
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0032-longest-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0076-minimum-window-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -349,6 +351,7 @@ Each solution contains:
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
@@ -394,4 +397,5 @@ Each solution contains:
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0032-longest-valid-parentheses) |
 <!---LeetCode Topics End-->
