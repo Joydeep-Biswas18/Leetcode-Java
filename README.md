@@ -117,6 +117,7 @@ Each solution contains:
 | [1004-max-consecutive-ones-iii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [2104-sum-of-subarray-ranges](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2104-sum-of-subarray-ranges) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -362,6 +363,7 @@ Each solution contains:
 | [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -369,6 +371,7 @@ Each solution contains:
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/2104-sum-of-subarray-ranges) |
 ## Queue
 |  |
 | ------- |
