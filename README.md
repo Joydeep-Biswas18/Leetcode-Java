@@ -359,6 +359,7 @@ Each solution contains:
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0094-binary-tree-inorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0735-asteroid-collision) |
@@ -406,4 +407,16 @@ Each solution contains:
 | ------- |
 | [0022-generate-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0032-longest-valid-parentheses) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Joydeep-Biswas18/Leetcode-Java/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
