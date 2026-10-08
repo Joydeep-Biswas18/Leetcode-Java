@@ -35,37 +35,34 @@ Output: 2
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 47 MB (beats 45.87%)  
-**Submitted:** 2026-10-08T07:12:58.964Z  
+**Memory:** 22.1 MB (beats 61.06%)  
+**Submitted:** 2026-10-08T07:13:19.236Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
  */
 class Solution {
-    public int maxDepth(TreeNode root) {
-        if (root == null) {
+public:
+    int maxDepth(TreeNode* root) {
+        if(root == NULL){
             return 0;
         }
-        int lh = maxDepth(root.left);
-        int rh = maxDepth(root.right);
-        return 1 + Math.max(lh, rh);
+        int lh = maxDepth(root->left);
+        int rh = maxDepth(root->right);
+        return 1 + max(lh,rh);
     }
-}
+};
 ```
 
 ---
