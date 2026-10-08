@@ -40,39 +40,39 @@ Explanation: Your function can return either index number 1 where the peak eleme
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44.3 MB (beats 38.76%)  
-**Submitted:** 2026-10-08T12:28:05.177Z  
+**Language:** C++  
+**Runtime:** 0 ms  
+**Memory:** 8.1 MB  
+**Submitted:** 2026-10-08T12:33:09.396Z  
 
-```java
+```cpp
 class Solution {
-    public int findPeakElement(int[] nums) {
-        int n = nums.length;
+public:
+    int findPeakElement(vector<int>& nums) {
+        int n = nums.size();
         if (n == 1) {
             return 0;
         } else if (nums[0] > nums[1]) {
             return 0;
-
         } else if (nums[n - 1] > nums[n - 2]) {
             return n - 1;
         } else {
             int low = 1;
             int high = n - 2;
             while (low <= high) {
-                int mid = low + (high - low) / 2;
+                int mid = low + (high - low);
                 if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
                     return mid;
                 } else if (nums[mid] > nums[mid - 1]) {
-                    low = mid + 1;
+                    low = mid - 1;
                 } else {
-                    high = mid - 1;
+                    high = mid + 1;
                 }
             }
         }
         return -1;
     }
-}
+};
 ```
 
 ---
