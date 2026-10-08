@@ -43,35 +43,35 @@ Output: false
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43 MB (beats 15.89%)  
-**Submitted:** 2026-10-08T07:50:06.040Z  
+**Memory:** 13 MB (beats 12.49%)  
+**Submitted:** 2026-10-08T07:53:10.431Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
  */
 class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        if (p == null || q == null) {
-            return p == q;
+public:
+    bool isSameTree(TreeNode* p, TreeNode* q) {
+        if(p==NULL || q==NULL){
+            //That check the number same or not and give answer in form of boolean
+            return (p==q);
+
         }
-        return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        //that check every node from left and right wheher they are same or not and give answer in boolean format
+        return (p->val == q->val) && isSameTree(p->left , q-> left) && isSameTree(p->right , q->right);
     }
-}
+};
 ```
 
 ---
