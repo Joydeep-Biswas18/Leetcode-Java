@@ -39,50 +39,44 @@ Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 46.5 MB (beats 75.62%)  
-**Submitted:** 2026-10-09T18:24:18.881Z  
+**Language:** C++  
+**Runtime:** 4 ms (beats 7.31%)  
+**Memory:** 27.9 MB (beats 78.82%)  
+**Submitted:** 2026-10-09T18:27:50.052Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
  */
 class Solution {
-    public int maxPathSum(TreeNode root) {
-        path_sum = Integer.MIN_VALUE;
+public:
+    int maxPathSum(TreeNode* root) {
+        path_sum = INT_MIN;
         max_sum(root);
         return path_sum;
-
     }
-
-    static int path_sum =Integer.MIN_VALUE;
-
-    public static int max_sum(TreeNode root) {
-        if (root == null) {
+    int path_sum = INT_MIN;
+    int max_sum(TreeNode* root) {
+        if(root == NULL){
             return 0;
         }
-        int ls = Math.max(0,max_sum(root.left));
-        int rs = Math.max(0,max_sum(root.right));
+        int ls = max(0 , max_sum(root->left));
+        int rs = max(0, max_sum(root->right));
 
-        path_sum = Math.max(path_sum, root.val + ls + rs);
+        path_sum = max(path_sum , root->val + ls + rs);
 
-        return root.val + Math.max(ls, rs);
-
+        return root->val +max(ls, rs);
     }
-}
+};
 ```
 
 ---
