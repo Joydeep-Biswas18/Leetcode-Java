@@ -38,47 +38,42 @@ Output: 1
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 43.71%)  
-**Memory:** 46.8 MB (beats 93.10%)  
-**Submitted:** 2026-10-09T17:38:04.910Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 23.8 MB (beats 41.25%)  
+**Submitted:** 2026-10-09T17:39:16.282Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
  */
 class Solution {
-    static int diameter = 0;
-    public int diameterOfBinaryTree(TreeNode root) {
-        diameter =0;
+public:
+    int diameter = 0;
+    int diameterOfBinaryTree(TreeNode* root) {
         max_height(root);
         return diameter;
     }
-
-
-    public static int max_height(TreeNode root) {
-        if (root == null) {
+    int max_height(TreeNode* root) {
+        if (root == NULL) {
             return 0;
         }
-        int lh = max_height(root.left);
-        int rh = max_height(root.right);
-        diameter = Math.max(diameter, (lh + rh));
-        return 1 + Math.max(lh, rh);
-    }
+        int lh = max_height(root->left);
+        int rh = max_height(root->right);
+        diameter = max(diameter, lh + rh);
 
-}
+        return 1 + max(lh, rh);
+    }
+};
 ```
 
 ---
