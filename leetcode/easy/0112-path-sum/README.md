@@ -50,39 +50,39 @@ Explanation: Since the tree is empty, there are no root-to-leaf paths.
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 45.2 MB (beats 14.62%)  
-**Submitted:** 2026-10-09T19:31:27.099Z  
+**Memory:** 21.5 MB (beats 66.42%)  
+**Submitted:** 2026-10-09T19:33:49.130Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
  */
 class Solution {
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-        if (root == null) {
+public:
+    bool hasPathSum(TreeNode* root, int targetSum) {
+        if (root == NULL) {
             return false;
         }
-        if (root.left == null && root.right == null) {
-            return targetSum == root.val;
+        if (root->left == NULL && root->right == NULL) {
+            return root->val == targetSum;
         }
-        targetSum -= root.val;
-        return hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum);
+        targetSum -= root->val;
+
+        return hasPathSum(root->left, targetSum) ||
+               hasPathSum(root->right, targetSum);
     }
-}
+};
 ```
 
 ---
