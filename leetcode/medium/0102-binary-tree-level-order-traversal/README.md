@@ -41,47 +41,48 @@ Output: []
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 96.31%)  
-**Memory:** 46.5 MB (beats 90.34%)  
-**Submitted:** 2026-10-10T11:55:13.518Z  
+**Language:** C++  
+**Runtime:** 2 ms (beats 31.87%)  
+**Memory:** 17.2 MB (beats 44.05%)  
+**Submitted:** 2026-10-10T11:59:25.065Z  
 
-```java
+```cpp
 class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> Level_wise_node = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<vector<int>> Level_wise_node;
+        queue<TreeNode*> q;
 
-        if (root == null) {
+        if (root == nullptr) {
             return Level_wise_node;
         }
 
-        queue.add(root);
+        q.push(root);
 
-        while (!queue.isEmpty()) {
-            int len_queue = queue.size();
-            List<Integer> sublist = new LinkedList<>();
+        while (!q.empty()) {
+            int len_queue = q.size();
+            vector<int> sublist;
 
             for (int i = 0; i < len_queue; i++) {
-                sublist.add(queue.peek().val);
+                sublist.push_back(q.front()->val);
 
-                if (queue.peek().left != null) {
-                    queue.add(queue.peek().left);
+                if (q.front()->left != nullptr) {
+                    q.push(q.front()->left);
                 }
 
-                if (queue.peek().right != null) {
-                    queue.add(queue.peek().right);
+                if (q.front()->right != nullptr) {
+                    q.push(q.front()->right);
                 }
 
-                queue.poll();
+                q.pop();
             }
 
-            Level_wise_node.add(sublist);
+            Level_wise_node.push_back(sublist);
         }
 
         return Level_wise_node;
     }
-}
+};
 ```
 
 ---
