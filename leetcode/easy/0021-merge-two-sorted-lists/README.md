@@ -46,50 +46,48 @@ Output: [0]
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.6 MB (beats 26.58%)  
-**Submitted:** 2026-10-12T08:03:05.190Z  
+**Memory:** 44 MB (beats 93.64%)  
+**Submitted:** 2026-10-12T08:06:51.039Z  
 
-```cpp
+```java
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * public class ListNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
  */
 class Solution {
-public:
-    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* dummyNode = new ListNode(0);
-        ListNode* temp = dummyNode;
-        if (list1 == NULL && list2 == NULL) {
-            return NULL;
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        ListNode dummy = new ListNode(0);
+        ListNode temp = dummy;
+        if (list1 == null && list2 == null) {
+            return null;
         }
-        while (list1 != NULL && list2 != NULL) {
-            if (list1->val <= list2->val) {
-                temp->next = list1;
-                list1 = list1->next;
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
+                temp.next = list1;
+                list1 = list1.next;
             } else {
-                temp->next = list2;
-                list2 = list2->next;
+                temp.next = list2;
+                list2 = list2.next;
             }
-            // update temp also
-            temp = temp->next;
+            temp = temp.next;
         }
-        if (list1 != NULL) {
-            temp->next = list1;
+        //if two lists has different size
+        if (list1 != null) {
+            temp.next = list1;
         } else {
-            temp->next = list2;
+            temp.next = list2;
         }
-
-        return dummyNode->next;
+        return dummy.next;
     }
-};
+}
 ```
 
 ---
