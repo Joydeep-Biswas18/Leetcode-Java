@@ -47,47 +47,45 @@ Output: [1]
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 14.9 MB (beats 59.06%)  
-**Submitted:** 2026-10-12T07:50:56.890Z  
+**Memory:** 43.5 MB (beats 39.23%)  
+**Submitted:** 2026-10-12T07:53:18.282Z  
 
-```cpp
+```java
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * public class ListNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
  */
 class Solution {
-public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode* temp = head;
+    public ListNode removeNthFromEnd(ListNode head, int n) {
         int size = 0;
         int count = 0;
-        while (temp != NULL) {
+        ListNode temp = head;
+        while (temp != null) {
             size++;
-            temp = temp->next;
+            temp = temp.next;
         }
         if (size == n) {
-            return head->next;
-            // that means first node will be removed
+            return head.next;
         }
         temp = head;
-        while (temp != NULL) {
+        while (temp != null) {
             count++;
             if (count == (size - n)) {
-                temp->next = temp->next->next;
+                temp.next = temp.next.next;
             }
-            temp = temp->next;
+            temp = temp.next;
         }
         return head;
     }
-};
+}
 ```
 
 ---
