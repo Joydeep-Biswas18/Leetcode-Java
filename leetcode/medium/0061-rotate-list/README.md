@@ -34,31 +34,32 @@ Output: [2,0,1]
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44.1 MB (beats 79.27%)  
-**Submitted:** 2026-10-12T08:33:25.009Z  
+**Memory:** 16.4 MB (beats 63.33%)  
+**Submitted:** 2026-10-12T08:34:52.605Z  
 
-```java
+```cpp
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
  */
 class Solution {
-    public ListNode rotateRight(ListNode head, int k) {
-        if (head == null || head.next == null || k == 0) {
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        if (head == NULL || head->next == NULL || k == 0) {
             return head;
         }
-        ListNode temp = head;
+        ListNode* temp = head;
         int n = 1;
-        while (temp.next != null) {
-            temp = temp.next;
+        while (temp->next != NULL) {
+            temp = temp->next;
             n++;
         }
         k = k % n;
@@ -66,19 +67,18 @@ class Solution {
             return head;
         }
 
-        temp.next = head;
+        temp->next = head;
         int size = (n - k);
-        ListNode newTail = head;
+        ListNode* newTail = head;
         for (int i = 1; i < size; i++) {
-            newTail = newTail.next;
-
+            newTail = newTail->next;
         }
-        ListNode newHead = newTail.next;
-        newTail.next = null;
+        ListNode* newHead = newTail->next;
+        newTail->next = NULL;
 
         return newHead;
     }
-}
+};
 ```
 
 ---
