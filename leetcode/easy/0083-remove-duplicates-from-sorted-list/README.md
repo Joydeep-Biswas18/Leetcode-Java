@@ -34,39 +34,40 @@ Output: [1,2,3]
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 45.4 MB (beats 68.37%)  
-**Submitted:** 2026-10-12T12:22:21.258Z  
+**Memory:** 16.3 MB (beats 33.40%)  
+**Submitted:** 2026-10-12T12:24:52.659Z  
 
-```java
+```cpp
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
  */
 class Solution {
-    public ListNode deleteDuplicates(ListNode head) {
-        if(head == null || head.next == null){
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode* temp = head;
+        if(head == NULL || head->next == NULL){
             return head;
         }
-        ListNode temp = head;
-        while(temp!= null && temp.next!= null){
-            if(temp.val == temp.next.val){
-                temp.next = temp.next.next;
+        while(temp!= NULL && temp->next != NULL){
+            if(temp->val == temp->next->val){
+                temp->next = temp->next->next;
             }
             else{
-                temp = temp.next;
+                temp = temp->next;
             }
         }
         return head;
-}
-}
+    }
+};
 ```
 
 ---
