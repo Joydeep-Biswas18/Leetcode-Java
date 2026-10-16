@@ -53,27 +53,30 @@ The sum of the squares of the distinct counts in all subarrays is equal to 12 + 
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 9 ms (beats 45.83%)  
-**Memory:** 46.1 MB (beats 84.85%)  
-**Submitted:** 2026-10-16T06:48:41.517Z  
+**Language:** C++  
+**Runtime:** 41 ms (beats 18.32%)  
+**Memory:** 36.2 MB (beats 70.05%)  
+**Submitted:** 2026-10-16T06:55:04.743Z  
 
-```java
+```cpp
 class Solution {
-    public int sumCounts(List<Integer> nums) {
-        int sum =0;
-        //Inner Loop
-        for(int i =0;i<nums.size(); i++){
-            HashSet<Integer> hs = new HashSet<>();
-            //Outer Loop
-            for(int j =i;j<nums.size(); j++){
-                hs.add(nums.get(j));
+public:
+    int sumCounts(vector<int>& nums) {
+        int sum = 0;
+
+        // Inner Loop
+        for (int i = 0; i < nums.size(); i++) {
+            unordered_set<int> hs;
+
+            for (int j = i; j < nums.size(); j++) {
+                hs.insert(nums[j]);
                 sum += hs.size() * hs.size();
             }
         }
+
         return sum;
     }
-}
+};
 ```
 
 ---
