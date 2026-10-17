@@ -62,18 +62,19 @@ Explanation:
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 11 ms (beats 60.95%)  
-**Memory:** 49.8 MB (beats 95.14%)  
-**Submitted:** 2026-10-17T04:27:54.273Z  
+**Language:** C++  
+**Runtime:** 7 ms (beats 90.88%)  
+**Memory:** 35.2 MB (beats 19.24%)  
+**Submitted:** 2026-10-17T04:30:01.147Z  
 
-```java
+```cpp
 class Solution {
-    public int shipWithinDays(int[] weights, int days) {
+public:
+    int shipWithinDays(vector<int>& weights, int days) {
         int low = 0;
         int high = 0;
         for (int num : weights) {
-            low = Math.max(low, num);
+            low = max(low, num);
             high += num;
         }
         int answer = high;
@@ -88,8 +89,7 @@ class Solution {
         }
         return answer;
     }
-
-    public static boolean isValid(int[] weights, int days, int max_valid) {
+    bool isValid(vector<int>& weights, int days, int max_valid) {
         int CurrSum = 0;
         int No_k = 1;
         for (int num : weights) {
@@ -107,7 +107,7 @@ class Solution {
         }
         return No_k <= days;
     }
-}
+};
 ```
 
 ---
