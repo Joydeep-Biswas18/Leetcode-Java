@@ -45,47 +45,46 @@ Output: false
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 17.9 MB (beats 98.06%)  
-**Submitted:** 2026-10-18T07:02:55.815Z  
+**Memory:** 44.2 MB (beats 99.61%)  
+**Submitted:** 2026-10-18T07:03:07.497Z  
 
-```cpp
+```java
 class Solution {
-public:
-    bool search(vector<int>& nums, int target) {
+    public boolean search(int[] nums, int target) {
         int low = 0;
-        int high = nums.size() - 1;
+        int high = nums.length - 1;
         while (low <= high) {
-            int mid = low + (high-low)/2;
-            if(nums[mid] == target){
+            int mid = low + (high - low) / 2;
+            if (nums[mid] == target) {
                 return true;
             }
-            if(nums[low] == nums[mid] && nums[mid] == nums[high]){
+            //that is our edge case when i cannot compare the low and mid or high or mid eleement because if they are equal to each other so itrim down the entire rrayby ooe step from both side
+            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
                 low++;
                 high--;
                 continue;
             }
-            if(nums[low] <= nums[mid]){
-                if(nums[low]<=target && target<= nums[mid]){
-                    high = mid-1;
+            if (nums[low] <= nums[mid]) {
+                if (nums[low] <= target && target <= nums[mid]) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
                 }
-                else{
-                    low = mid +1;
+
+            } else {
+                if (nums[mid] <= target && target <= nums[high]) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
                 }
-            }
-            else{
-                if(nums[mid]<= target && target <= nums[high]){
-                    low = mid+1;
-                }
-                else{
-                    high = mid-1;
-                }
+
             }
         }
         return false;
     }
-};
+}
 ```
 
 ---
