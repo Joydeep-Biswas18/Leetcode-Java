@@ -50,25 +50,21 @@ Output: -1
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.4 MB (beats 93.52%)  
-**Submitted:** 2026-10-18T07:08:09.788Z  
+**Memory:** 15.1 MB (beats 96.41%)  
+**Submitted:** 2026-10-18T07:12:20.011Z  
 
-```java
+```cpp
 class Solution {
-    public int search(int[] nums, int target) {
+public:
+    int search(vector<int>& nums, int target) {
         int low = 0;
-        int high = nums.length - 1;
+        int high = nums.size() - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (nums[mid] == target) {
                 return mid;
-            }
-            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
-                low++;
-                high--;
-                continue;
             }
             if (nums[low] <= nums[mid]) {
                 if (nums[low] <= target && target <= nums[mid]) {
@@ -83,11 +79,10 @@ class Solution {
                     high = mid - 1;
                 }
             }
-
         }
         return -1;
     }
-}
+};
 ```
 
 ---
