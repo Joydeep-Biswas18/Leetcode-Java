@@ -41,69 +41,66 @@ Output: []
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 84.11%)  
-**Memory:** 43.3 MB (beats 95.79%)  
-**Submitted:** 2026-10-18T11:27:39.559Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 15.1 MB (beats 77.29%)  
+**Submitted:** 2026-10-18T11:36:51.974Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
  */
 class Solution {
-    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        List<List<Integer>> ds = new ArrayList<>();
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        queue<TreeNode*> q;
+        vector<vector<int>> ds;
 
-        if (root == null) {
+        if (root == NULL) {
             return ds;
         }
 
         int flag = 0;
-        queue.add(root);
+        q.push(root);
 
-        while (!queue.isEmpty()) {
-            int len = queue.size();
-            List<Integer> list = new ArrayList<>();
+        while (!q.empty()) {
+            int len = q.size();
+            vector<int> list;
 
             for (int i = 0; i < len; i++) {
-                TreeNode node = queue.poll();
-                list.add(node.val);
+                TreeNode* node = q.front();
+                q.pop();
+                list.push_back(node->val);
 
-                if (node.left != null) {
-                    queue.add(node.left);
+                if (node->left != NULL) {
+                    q.push(node->left);
                 }
 
-                if (node.right != null) {
-                    queue.add(node.right);
+                if (node->right != NULL) {
+                    q.push(node->right);
                 }
             }
 
             if (flag == 1) {
-                Collections.reverse(list);
+                reverse(list.begin(), list.end());
             }
 
-            ds.add(list);
+            ds.push_back(list);
             flag = 1 - flag;
         }
 
         return ds;
     }
-
-
-}
+};
 ```
 
 ---
