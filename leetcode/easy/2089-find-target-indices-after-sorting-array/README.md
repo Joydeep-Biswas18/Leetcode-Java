@@ -51,24 +51,25 @@ The index where nums[i] == 5 is 4.
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 5 ms (beats 71.84%)  
-**Memory:** 44.9 MB (beats 75.39%)  
-**Submitted:** 2026-10-19T15:49:18.682Z  
+**Language:** C++  
+**Runtime:** 2 ms (beats 13.17%)  
+**Memory:** 15.1 MB (beats 52.00%)  
+**Submitted:** 2026-10-19T15:52:09.272Z  
 
-```java
+```cpp
 class Solution {
-    public List<Integer> targetIndices(int[] nums, int target) {
-        Arrays.sort(nums);
-        List<Integer> ds = new ArrayList<>();
-        for(int i =0;i<nums.length;i++){
+public:
+    vector<int> targetIndices(vector<int>& nums, int target) {
+        vector<int> ds;
+        sort(nums.begin(), nums.end());
+        for(int i=0;i<nums.size();i++){
             if(nums[i] == target){
-                ds.add(i);
+                ds.push_back(i);
             }
         }
         return ds;
     }
-}
+};
 ```
 
 ---
