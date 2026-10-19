@@ -55,34 +55,34 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 6 ms (beats 9.05%)  
-**Memory:** 47.9 MB (beats 95.40%)  
-**Submitted:** 2026-10-19T16:15:49.789Z  
+**Language:** C++  
+**Runtime:** 2 ms (beats 14.07%)  
+**Memory:** 25.6 MB (beats 40.83%)  
+**Submitted:** 2026-10-19T16:24:59.845Z  
 
-```java
+```cpp
 class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-
-        for (int i = 0; i < numbers.length - 1; i++) {
-            int complement = target - numbers[i];
+public:
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        for (int i = 0; i < numbers.size(); i++) {
+            int comp = target - numbers[i];
             int low = i + 1;
-            int high = numbers.length - 1;
+            int high = numbers.size() - 1;
             while (low <= high) {
                 int mid = low + (high - low) / 2;
-                if (numbers[mid] == complement) {
-                    return new int[] { i + 1, mid + 1 };
-                } else if (numbers[mid] < complement) {
+                if (numbers[mid] == comp) {
+                    return {i + 1, mid + 1};
+                } else if (numbers[mid] < comp) {
                     low = mid + 1;
+
                 } else {
                     high = mid - 1;
                 }
             }
-
         }
-        return new int[] { -1, -1 };
+        return {-1, -1};
     }
-}
+};
 ```
 
 ---
