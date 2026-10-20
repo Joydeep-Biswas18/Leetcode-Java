@@ -48,37 +48,35 @@ Output: 0
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44.1 MB (beats 99.52%)  
-**Submitted:** 2026-10-20T13:58:03.919Z  
+**Memory:** 16.2 MB (beats 62.77%)  
+**Submitted:** 2026-10-20T14:01:41.245Z  
 
-```java
+```cpp
 class Solution {
-    public int findMin(int[] nums) {
-        int low =0;
-        int high = nums.length -1;
-        int ans = Integer.MAX_VALUE;
-        while(low<=high){
-            int mid = low + (high -low)/2;
-            if(nums[low]== nums[mid] && nums[mid] == nums[high]){
-                ans = Math.min(ans , nums[low]);
+public:
+    int findMin(vector<int>& nums) {
+        int low = 0;
+        int high = nums.size() - 1;
+        int ans = INT_MAX;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
+                ans = min(ans, nums[low]);
                 low++;
                 high--;
-            }
-            else if(nums[low]<=nums[mid]){
-                ans = Math.min(ans , nums[low]);
-                low = mid+1;
-            }
-            else{
-                ans = Math.min(ans ,nums[mid]);
-                high = mid-1;
+            } else if (nums[low] <= nums[mid]) {
+                ans = min(ans, nums[low]);
+                low = mid + 1;
+            } else {
+                ans = min(ans, nums[mid]);
+                high = mid - 1;
             }
         }
         return ans;
-
     }
-}
+};
 ```
 
 ---
