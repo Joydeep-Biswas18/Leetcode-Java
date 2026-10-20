@@ -48,25 +48,26 @@ Output: 23
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 7 ms (beats 85.98%)  
-**Memory:** 47.3 MB (beats 95.44%)  
-**Submitted:** 2026-10-20T08:13:30.896Z  
+**Language:** C++  
+**Runtime:** 8 ms (beats 52.49%)  
+**Memory:** 23 MB (beats 57.31%)  
+**Submitted:** 2026-10-20T08:14:38.669Z  
 
-```java
+```cpp
 class Solution {
-    public int minEatingSpeed(int[] piles, int h) {
-       int low = 1;
+public:
+    int minEatingSpeed(vector<int>& piles, int h) {
+        int low = 1;
         int high = 0;
         for (int num : piles) {
-            high = Math.max(high ,num);
+            high = max(high, num);
         }
         int answer = low;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (isValid(piles, h, mid)) {
                 answer = mid;
-                high = mid-1;
+                high = mid - 1;
 
             } else {
                 low = mid + 1;
@@ -75,7 +76,7 @@ class Solution {
         return answer;
     }
 
-    public static boolean isValid(int[] nums, int h, int speed) {
+    bool isValid(vector<int>& nums, int h, int speed) {
         int hour = 0;
 
         for (int num : nums) {
@@ -88,7 +89,7 @@ class Solution {
 
         return true;
     }
-}
+};
 ```
 
 ---
