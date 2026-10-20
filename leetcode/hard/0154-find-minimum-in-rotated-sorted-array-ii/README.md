@@ -50,18 +50,33 @@ Output: 0
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44.5 MB (beats 93.82%)  
-**Submitted:** 2026-10-20T13:46:24.768Z  
+**Memory:** 44.1 MB (beats 99.52%)  
+**Submitted:** 2026-10-20T13:58:03.919Z  
 
 ```java
 class Solution {
     public int findMin(int[] nums) {
-        int lowest = Integer.MAX_VALUE;
-        for (int num : nums) {
-            lowest = Math.min(num, lowest);
-
+        int low =0;
+        int high = nums.length -1;
+        int ans = Integer.MAX_VALUE;
+        while(low<=high){
+            int mid = low + (high -low)/2;
+            if(nums[low]== nums[mid] && nums[mid] == nums[high]){
+                ans = Math.min(ans , nums[low]);
+                low++;
+                high--;
+            }
+            else if(nums[low]<=nums[mid]){
+                ans = Math.min(ans , nums[low]);
+                low = mid+1;
+            }
+            else{
+                ans = Math.min(ans ,nums[mid]);
+                high = mid-1;
+            }
         }
-        return lowest;
+        return ans;
+
     }
 }
 ```
