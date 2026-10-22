@@ -58,18 +58,35 @@ In 2015-01-04, the temperature was higher than the previous day (20 -> 30).
 
 ## Solution
 
-**Language:** SQL  
-**Runtime:** 510 ms (beats 56.08%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-22T14:50:44.024Z  
+**Language:** Python  
+**Runtime:** 295 ms (beats 66.28%)  
+**Memory:** 68.2 MB (beats 28.55%)  
+**Submitted:** 2026-10-22T15:03:00.987Z  
 
-```sql
-# Write your MySQL query statement below
-select w1.id
-from Weather w1 
-Inner join Weather w2
-on datediff(w1.recordDate ,w2.recordDate )=1 AND 
-w1.temperature > w2.temperature ;
+```py
+import pandas as pd
+
+def rising_temperature(weather: pd.DataFrame) -> pd.DataFrame:
+    weather['recordDate'] = pd.to_datetime(weather['recordDate'])
+
+    w1 = weather.copy()
+    w2 = weather.copy()
+
+    w1['previousDate'] = w1['recordDate'] - pd.Timedelta(days=1)
+
+    df = pd.merge(
+        w1,
+        w2,
+        left_on='previousDate',
+        right_on='recordDate',
+        how='inner',
+        suffixes=('_today', '_yesterday')
+    )
+
+    df = df[df['temperature_today'] > df['temperature_yesterday']]
+
+    return df[['id_today']].rename(columns={'id_today': 'id'})
+    
 ```
 
 ---
