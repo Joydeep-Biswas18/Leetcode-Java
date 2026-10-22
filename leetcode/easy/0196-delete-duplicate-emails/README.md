@@ -57,17 +57,18 @@ Explanation: john@example.com is repeated two times. We keep the row with the sm
 
 ## Solution
 
-**Language:** SQL  
-**Runtime:** 943 ms (beats 37.84%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-22T14:05:31.240Z  
+**Language:** Python  
+**Runtime:** 295 ms (beats 26.02%)  
+**Memory:** 66.7 MB (beats 95.65%)  
+**Submitted:** 2026-10-22T14:15:20.431Z  
 
-```sql
-# Write your MySQL query statement below
-delete p1
-from person p1 inner join Person p2
-where p1.email = p2.email
-AND p1.id > p2.id;
+```py
+import pandas as pd
+
+def delete_duplicate_emails(person: pd.DataFrame) -> None:
+    person.sort_values('id', inplace=True)
+    person.drop_duplicates(subset=['email'], keep ='first',inplace = True)
+    
 ```
 
 ---
