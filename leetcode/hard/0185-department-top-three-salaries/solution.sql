@@ -1,0 +1,21 @@
+# Write your MySQL query statement below
+ 
+SELECT
+    ranked.Department,
+    ranked.Employee,
+    ranked.Salary
+FROM (
+    SELECT
+        d.name AS Department,
+        e.name AS Employee,
+        e.salary AS Salary,
+        DENSE_RANK() OVER (
+            PARTITION BY e.departmentId
+            ORDER BY e.salary DESC
+        ) AS rnk
+    FROM Employee e
+    LEFT JOIN Department d
+        ON e.departmentId = d.id
+) AS ranked
+WHERE rnk <= 3;
+
