@@ -104,34 +104,25 @@ In the Sales department:
 
 ## Solution
 
-**Language:** SQL  
-**Runtime:** 1501 ms (beats 15.80%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-22T09:16:14.182Z  
+**Language:** Python  
+**Runtime:** 361 ms (beats 43.81%)  
+**Memory:** 68.6 MB (beats 93.90%)  
+**Submitted:** 2026-10-22T14:36:34.434Z  
 
-```sql
-# Write your MySQL query statement below
- 
-SELECT
-    ranked.Department,
-    ranked.Employee,
-    ranked.Salary
-FROM (
-    SELECT
-        d.name AS Department,
-        e.name AS Employee,
-        e.salary AS Salary,
-        DENSE_RANK() OVER (
-            PARTITION BY e.departmentId
-            ORDER BY e.salary DESC
-        ) AS rnk
-    FROM Employee e
-    LEFT JOIN Department d
-        ON e.departmentId = d.id
-) AS ranked
-WHERE rnk <= 3;
+```py
+import pandas as pd
+
+def top_three_salaries(employee: pd.DataFrame, department: pd.DataFrame) -> pd.DataFrame:
+    df = pd.merge(employee , department , left_on='departmentId' ,right_on ='id', how='left')
+    df['rank'] = df.groupby('departmentId')['salary'].rank(method='dense',ascending =False)
+    df= df[df['rank']<=3]
 
 
+    return df[['name_x','name_y','salary']].rename(columns = {
+        'name_x' :"Department",
+        'name_y': 'Employee',
+        'salary' : "Salary"
+    })
 ```
 
 ---
