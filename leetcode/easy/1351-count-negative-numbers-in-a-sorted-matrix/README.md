@@ -40,48 +40,37 @@ Output: 0
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 46.6 MB (beats 90.83%)  
-**Submitted:** 2026-10-23T14:09:29.691Z  
+**Memory:** 14 MB (beats 91.73%)  
+**Submitted:** 2026-10-23T14:15:37.096Z  
 
-```java
-
+```cpp
 class Solution {
-    public int countNegatives(int[][] grid) {
+public:
+    int countNegatives(vector<vector<int>>& grid) {
         int count = 0;
-        //length of rows
-        int m = grid.length;
-        //length of col
-        int n = grid[0].length;
-
-        for (int i = 0; i < grid.length ; i++) {
-            // that loop runs for every row one by one with checking every row element according to binary search
+        int m = grid.size();
+        int n = grid[0].size();
+        for (int row = 0; row < m; row++) {
+            int firstNeg = n;
             int low = 0;
-            int high = grid[0].length - 1;
-            int firstnegative = n;
-            //that is the very important line because if i find where the nwgative number is starting  so i can asily calculate the total number of negatives numbers
+            int high = n - 1;
             while (low <= high) {
                 int mid = low + (high - low) / 2;
-                if (grid[i][mid] < 0) {
-                    // store the first negative number where as i find
-                    firstnegative = mid;
-                    // trim out the right half
+                if (grid[row][mid] < 0) {
+                    firstNeg = mid;
                     high = mid - 1;
 
                 } else {
-                    // trim out left half
                     low = mid + 1;
                 }
             }
-            // if i find negative number is 3rd position that means after that all numbers are also nagative 
-            // so the count = total length of row - 3rd position
-            count += n - firstnegative;
+            count += n - firstNeg;
         }
         return count;
-
     }
-}
+};
 ```
 
 ---
