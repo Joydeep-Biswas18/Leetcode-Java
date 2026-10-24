@@ -45,45 +45,30 @@ Could you solve this problem in less than O(n) complexity?
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.8 MB (beats 98.49%)  
-**Submitted:** 2026-10-24T13:38:00.779Z  
+**Memory:** 13.1 MB (beats 90.09%)  
+**Submitted:** 2026-10-24T13:40:49.214Z  
 
-```java
+```cpp
 class Solution {
-    public int findKthPositive(int[] arr, int k) {
+public:
+    int findKthPositive(vector<int>& arr, int k) {
         int low = 0;
-        int high = arr.length -1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (arr[mid] - mid - 1 < k) {
-                //that counts how many numbers are present before that number
-                low = mid + 1;
-            } else {
-                high = mid -1 ;
+        int high = arr.size()-1;
+        while(low<= high){
+            int mid = low + (high -low)/2;
+            if(arr[mid] - mid -1 <k){
+                low = mid +1;
+            }
+            else{
+                high = mid -1;
             }
         }
         return high + k +1;
-
+        // i use this extra 1 because i assume the array is 0 index based but in the quetion the array is 1-index based 
     }
-}
-// int low = 0;
-//         int high = arr.length;
-//          here the array is said to 1 index based
-//         while (low < high) {
-//             int mid = low + (high - low) / 2;
-//             if (arr[mid] - mid - 1 < k) {
-//                 //that counts how many numbers are present before that number
-//                 low = mid + 1;
-//             } else {
-//                 high = mid  ;
-//                  i use this because of while(low <high)
-//             }
-//         }
-//         return high + k;
-
-//     }
+};
 ```
 
 ---
