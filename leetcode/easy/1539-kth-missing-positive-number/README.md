@@ -45,30 +45,24 @@ Could you solve this problem in less than O(n) complexity?
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 13.1 MB (beats 90.09%)  
-**Submitted:** 2026-10-24T13:40:49.214Z  
+**Memory:** 19.1 MB (beats 98.38%)  
+**Submitted:** 2026-10-24T14:08:16.644Z  
 
-```cpp
-class Solution {
-public:
-    int findKthPositive(vector<int>& arr, int k) {
-        int low = 0;
-        int high = arr.size()-1;
-        while(low<= high){
-            int mid = low + (high -low)/2;
-            if(arr[mid] - mid -1 <k){
-                low = mid +1;
-            }
-            else{
-                high = mid -1;
-            }
-        }
-        return high + k +1;
-        // i use this extra 1 because i assume the array is 0 index based but in the quetion the array is 1-index based 
-    }
-};
+```py
+class Solution:
+    def findKthPositive(self, arr: list[int], k: int) -> int:
+        low =0
+        high =len(arr)
+        while(low<high):
+            mid = low + (high -low)//2
+            if(arr[mid] - mid -1 <k):
+                low = mid +1
+            else:
+                high = mid
+        
+        return high + k 
 ```
 
 ---
