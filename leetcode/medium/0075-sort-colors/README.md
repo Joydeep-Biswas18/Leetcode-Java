@@ -46,15 +46,16 @@ The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.8 MB (beats 96.08%)  
-**Submitted:** 2026-10-26T08:08:46.913Z  
+**Memory:** 11.5 MB (beats 97.76%)  
+**Submitted:** 2026-10-26T08:09:36.984Z  
 
-```java
+```cpp
 class Solution {
-    public void sortColors(int[] nums) {
-        int n = nums.length;
+public:
+    void sortColors(vector<int>& nums) {
+       int n = nums.size();
         int low =0;
         int high = n-1;
         int mid =0;
@@ -74,7 +75,7 @@ class Solution {
         }
         
     }
-    public static void swap(int [] nums ,int low ,int high){
+    void swap(vector<int>& nums ,int low ,int high){
 
         while(low<high){
 
@@ -87,7 +88,7 @@ class Solution {
 
         }
     }
-}
+};
 ```
 
 ---
