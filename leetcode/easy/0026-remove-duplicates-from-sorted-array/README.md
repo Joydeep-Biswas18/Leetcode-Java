@@ -61,27 +61,26 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 80.10%)  
-**Memory:** 46.2 MB (beats 94.44%)  
-**Submitted:** 2026-10-26T07:27:12.877Z  
+**Language:** C++  
+**Runtime:** 1 ms (beats 16.70%)  
+**Memory:** 22.3 MB (beats 99.14%)  
+**Submitted:** 2026-10-26T07:29:51.190Z  
 
-```java
+```cpp
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int left =0;
-        int right =0;
-        int n = nums.length;
-        while(right<n){
-            if(nums[left]!= nums[right]){
-                left++;
-                nums[left] = nums[right];
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int l =0;
+        int n = nums.size();
+        for (int r = 0; r < n; r++) {
+            if (nums[l] != nums[r]) {
+                l++;
+                nums[l] = nums[r];
             }
-            right++;
         }
-        return left+1;
+        return l + 1;
     }
-}
+};
 ```
 
 ---
