@@ -66,27 +66,27 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.2 MB (beats 86.93%)  
-**Submitted:** 2026-10-26T07:46:39.942Z  
+**Language:** C++  
+**Runtime:** 1 ms (beats 2.33%)  
+**Memory:** 11.5 MB (beats 97.35%)  
+**Submitted:** 2026-10-26T07:48:22.741Z  
 
-```java
+```cpp
 class Solution {
-    public int removeElement(int[] nums, int val) {
+public:
+    int removeElement(vector<int>& nums, int val) {
         int i =0;
-        int n = nums.length;
-        int r =0;
-        while(r<n){
+        int n = nums.size();
+        for(int r =0;r<n;r++){
             if(val != nums[r]){
                 nums[i] = nums[r];
                 i++;
             }
-            r++;
+            
         }
         return i;
     }
-}
+};
 ```
 
 ---
