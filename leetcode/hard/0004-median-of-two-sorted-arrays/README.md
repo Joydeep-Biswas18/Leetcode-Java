@@ -41,55 +41,53 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 4 ms (beats 24.94%)  
-**Memory:** 48.5 MB (beats 82.28%)  
-**Submitted:** 2026-10-26T06:10:18.009Z  
+**Language:** C++  
+**Runtime:** 3 ms (beats 28.62%)  
+**Memory:** 95.7 MB (beats 27.36%)  
+**Submitted:** 2026-10-26T06:13:28.299Z  
 
-```java
+```cpp
+
 class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int[]merge = merge_array(nums1,nums2);
-        int n = merge.length;
-        if(n%2==1){
-            return(double) merge[n/2];
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        vector<int> merged = merge_array(nums1, nums2);
+        int n = merged.size();
 
+        if (n % 2 == 1) {
+            return (double)merged[n / 2];
+        } else {
+            return ((double)merged[n / 2] + merged[n / 2 - 1]) / 2;
         }
-        else{
-            return(double) (merge[n/2] + merge[n/2-1])/2;
-        }
-        
     }
-    public static int[] merge_array(int[]nums1 ,int[]nums2){
-        int m = nums1.length;
-        int n = nums2.length;
-        int i =0;
-        int j =0;
-        int k=0;
-        int [] merge = new int[n+m];
-        while(i<m && j<n){
-            if(nums1[i]<nums2[j]){
-                merge[k++]= nums1[i];
-                i++;
-            }
-            else{
-                merge[k++] = nums2[j];
-                j++;
+
+    vector<int> merge_array(vector<int>& nums1, vector<int>& nums2) {
+        int m = nums1.size();
+        int n = nums2.size();
+
+        int i = 0, j = 0, k = 0;
+        vector<int> merged(m + n);
+
+        while (i < m && j < n) {
+            if (nums1[i] < nums2[j]) {
+                merged[k++] = nums1[i++];
+            } else {
+                merged[k++] = nums2[j++];
             }
         }
-        while(i<m){
-            merge[k++]= nums1[i];
-            i++;
-            
-        }
-        while(j<n){
-            merge[k++]= nums2[j];
-            j++;
 
+        while (i < m) {
+            merged[k++] = nums1[i++];
         }
-        return merge;
+
+        while (j < n) {
+            merged[k++] = nums2[j++];
+        }
+
+        return merged;
     }
-}
+};
+
 ```
 
 ---
