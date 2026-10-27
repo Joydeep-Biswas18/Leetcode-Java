@@ -62,63 +62,63 @@ It is obvious that we can make two bouquets in different ways.
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 18 ms (beats 47.87%)  
-**Memory:** 82.1 MB (beats 93.15%)  
-**Submitted:** 2026-10-27T08:20:31.419Z  
+**Language:** C++  
+**Runtime:** 24 ms (beats 40.59%)  
+**Memory:** 70.4 MB (beats 95.06%)  
+**Submitted:** 2026-10-27T08:23:21.827Z  
 
-```java
+```cpp
 class Solution {
-    public int minDays(int[] bloomDay, int m, int k) {
-        int min = bloomDay[0];
-        int max = bloomDay[0];
+public:
+    int minDays(vector<int>& bloomDay, int m, int k) {
+        int min_ele = bloomDay[0];
+        int max_ele = bloomDay[0];
         // Base case: Not enough flowers to make m bouquets of size k
         // Cast to long to prevent integer overflow
-        if ((long) m * k > bloomDay.length) {
+        if ((long)m * k > bloomDay.size()) {
             return -1;
         }
         for (int bloom : bloomDay) {
-            max = Math.max(max, bloom);
-            min = Math.min(min, bloom);
+            max_ele = max(max_ele, bloom);
+            min_ele = min(min_ele, bloom);
         }
-        int low = min;
-        int high = max;
+        int low = min_ele;
+        int high = max_ele;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (isPosible(bloomDay, mid, m, k)) {
-                // if it is posible so trim out the right half because we are not interest with thr=e right half we need the minimum days
+                // if it is posible so trim out the right half because we are
+                // not interest with thr=e right half we need the minimum days
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
         return low;
-
     }
 
-    public static boolean isPosible(int[] nums, int val, int m, int k) {
+    bool isPosible(vector<int>& nums, int val, int m, int k) {
         int count = 0;
         int no_of_bouquets = 0;
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.size(); i++) {
             if (nums[i] <= val) {
                 count++;
-                if(count==k){
-                    no_of_bouquets ++;
-                    count=0;
+                if (count == k) {
+                    no_of_bouquets++;
+                    count = 0;
                 }
             } else {
-                
+
                 count = 0;
             }
 
-           
             if (no_of_bouquets >= m) {
                 return true;
             }
         }
         return false;
     }
-}
+};
 ```
 
 ---
