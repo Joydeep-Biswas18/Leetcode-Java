@@ -42,32 +42,30 @@ Output: false
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 13.3 MB (beats 74.74%)  
-**Submitted:** 2026-10-28T12:46:27.079Z  
+**Memory:** 19.4 MB (beats 93.36%)  
+**Submitted:** 2026-10-28T12:51:45.914Z  
 
-```cpp
-class Solution {
-public:
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int m = matrix.size();
-        int n = matrix[0].size();
-        int low = 0;
-        int high = m * n - 1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (matrix[mid / n][mid % n] == target) {
-                return true;
-            } else if (matrix[mid / n][mid % n] < target) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-        return false;
-    }
-};
+```py
+class Solution:
+    def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
+        m = len(matrix)
+        n = len(matrix[0])
+        low = 0
+        high = m * n -1
+        while(low <= high):
+            mid = low + (high -low)//2
+            if(matrix[mid // n][mid % n] == target):
+                return True
+
+            elif ( matrix[mid // n][mid % n]< target):
+                low = mid +1
+            
+            else:
+                high = mid -1
+            
+        return False
 ```
 
 ---
