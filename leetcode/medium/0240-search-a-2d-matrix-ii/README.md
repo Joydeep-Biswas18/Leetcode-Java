@@ -41,33 +41,28 @@ Output: false
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 4 ms (beats 22.56%)  
-**Memory:** 47.6 MB (beats 96.76%)  
-**Submitted:** 2026-10-28T13:44:20.074Z  
+**Language:** Python  
+**Runtime:** 144 ms (beats 49.38%)  
+**Memory:** 25.7 MB (beats 23.97%)  
+**Submitted:** 2026-10-28T13:52:19.761Z  
 
-```java
-class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int m = matrix.length;
-        int n = matrix[0].length;
-        int row = 0;
-        int col = n-1;
+```py
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        m = len(matrix)
+        n = len(matrix[0])
+        row =0
+        col = n-1
 
-        while(row<m && col >=0){
-            if(matrix[row][col] == target){
-                return true;
-            }
-            else if (matrix[row][col]<target){
-                row++;
-            }
-            else{
-                col--;
-            }
-        }
-        return false;
-    }
-}
+        while(row<m and col>=0):
+            if(matrix[row][col] == target):
+                return True
+            elif(matrix[row][col]<target):
+                row +=1
+            else:
+                col -=1
+
+        return False
 ```
 
 ---
