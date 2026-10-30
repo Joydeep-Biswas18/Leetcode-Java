@@ -44,50 +44,41 @@ Explanation: Both 30 and 32 are peak elements so [1,1] and [2,2] are both accep
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 118.6 MB (beats 93.39%)  
-**Submitted:** 2026-10-30T05:09:47.438Z  
+**Memory:** 46.3 MB (beats 13.98%)  
+**Submitted:** 2026-10-30T15:28:32.370Z  
 
-```java
-class Solution {
-    public int[] findPeakGrid(int[][] mat) {
-        int m = mat.length;
-        int n = mat[0].length;
+```py
+class Solution:
+    def findPeakGrid(self, mat: list[list[int]]) -> list[int]:
+        m = len(mat)
+        n = len(mat[0])
+        low =0
+        high = n-1
+        while(low<=high):
+            mid = low + (high -low)//2
+            row = self.max_ele_index(mat ,  mid)
+            left = mat[row][mid - 1] if mid > 0 else -1
+            right = mat[row][mid + 1] if mid < n - 1 else -1
+            if(mat[row][mid]> left and mat[row][mid]> right):
+                return [row,mid]
+            elif(mat[row][mid]< left):
+                high = mid -1
+            else:
+                low = mid +1
+        return [-1,-1]
 
-        int low = 0;
-        int high = n - 1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            int row = max_ele_row(mat, mid);
-            int left = mid - 1 >= 0 ? mat[row][mid - 1] : -1;
-            int right = mid + 1 < n ? mat[row][mid + 1] : -1;
-            if (mat[row][mid] > left && mat[row][mid] > right) {
-                return new int[] { row, mid };
-            } else if (mat[row][mid] < left) {
-                high = mid - 1;
-            } else {
-                low = mid + 1;
-            }
+    def max_ele_index(self , mat:list[list[int]], col) -> int:
+        maxEle = mat[0][col]
+        max_index =0
+        for i in range (len(mat)):
+            if(mat[i][col]> maxEle):
+                maxEle = mat[i][col]
+                max_index = i
+            
+        return max_index
 
-        }
-        return new int[] { -1, -1 };
-
-    }
-
-    public static int max_ele_row(int[][] nums, int col) {
-        int max = nums[0][col];
-        int max_index = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i][col] > max) {
-                max = nums[i][col];
-                max_index = i;
-            }
-        }
-        return max_index;
-    }
-
-}
 ```
 
 ---
