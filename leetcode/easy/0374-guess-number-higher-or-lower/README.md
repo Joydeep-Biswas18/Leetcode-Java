@@ -53,42 +53,34 @@ Output: 1
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 1 ms (beats 57.46%)  
-**Memory:** 7.9 MB (beats 72.06%)  
-**Submitted:** 2026-10-31T12:50:00.687Z  
+**Language:** Python  
+**Runtime:** 48 ms (beats 31.42%)  
+**Memory:** 19 MB (beats 95.56%)  
+**Submitted:** 2026-10-31T12:54:21.480Z  
 
-```cpp
-/** 
- * Forward declaration of guess API.
- * @param  num   your guess
- * @return 	     -1 if num is higher than the picked number
- *			      1 if num is lower than the picked number
- *               otherwise return 0
- * int guess(int num);
- */
+```py
+# The guess API is already defined for you.
+# @param num, your guess
+# @return -1 if num is higher than the picked number
+#          1 if num is lower than the picked number
+#          otherwise return 0
+# def guess(num: int) -> int:
 
-class Solution {
-public:
-    int guessNumber(int n) {
-        int low =0;
-        int high = n;
-        while(low <= high){
-            int mid = low + (high-low)/2;
-            if(guess(mid) ==0){
-                return mid;
-            }
-            else if (guess(mid) == -1){
-                high = mid -1;
-            }
-            else{
-                low = mid +1;
-            }
+class Solution:
+    def guessNumber(self, n: int) -> int:
+        low =1
+        high = n
+        while(low <= high):
+            mid = low + ( high -low)//2
+            if(guess(mid) ==0):
+                return mid
+            elif (guess(mid) == -1):
+                high = mid -1
+            else:
+                low = mid +1
 
-        }
-        return 0;
-    }
-};
+        return low
+        
 ```
 
 ---
