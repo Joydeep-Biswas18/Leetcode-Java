@@ -53,12 +53,12 @@ Output: 1
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 41.7 MB (beats 84.64%)  
-**Submitted:** 2026-10-31T12:47:49.879Z  
+**Language:** C++  
+**Runtime:** 1 ms (beats 57.46%)  
+**Memory:** 7.9 MB (beats 72.06%)  
+**Submitted:** 2026-10-31T12:50:00.687Z  
 
-```java
+```cpp
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -68,25 +68,27 @@ Output: 1
  * int guess(int num);
  */
 
-public class Solution extends GuessGame {
-    public int guessNumber(int n) {
+class Solution {
+public:
+    int guessNumber(int n) {
         int low =0;
-        int high =n;
+        int high = n;
         while(low <= high){
-            int mid = low + (high -low)/2;
-            if(guess(mid) == 0){
+            int mid = low + (high-low)/2;
+            if(guess(mid) ==0){
                 return mid;
             }
             else if (guess(mid) == -1){
                 high = mid -1;
             }
-            else {
+            else{
                 low = mid +1;
             }
+
         }
-        return -1;
+        return 0;
     }
-}
+};
 ```
 
 ---
