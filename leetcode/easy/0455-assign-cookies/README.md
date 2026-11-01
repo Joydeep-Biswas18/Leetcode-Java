@@ -46,32 +46,28 @@ You need to output 2.
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 11 ms (beats 35.51%)  
-**Memory:** 44.9 MB (beats 45.09%)  
-**Submitted:** 2026-11-01T12:55:48.873Z  
+**Language:** Python  
+**Runtime:** 27 ms (beats 22.40%)  
+**Memory:** 22 MB (beats 62.87%)  
+**Submitted:** 2026-11-01T12:59:30.171Z  
 
-```cpp
-class Solution {
-public:
-    int findContentChildren(vector<int>& g, vector<int>& s) {
-        int count = 0;
-        int ptr1 = 0;
-        int ptr2 = 0;
-        sort(g.begin(), g.end());
-        sort(s.begin(), s.end());
-        while (ptr2 < s.size() && ptr1 < g.size()) {
-            if (s[ptr2] >= g[ptr1]) {
-                count++;
-                ptr1++;
-                ptr2++;
-            } else {
-                ptr2++;
-            }
-        }
-        return count;
-    }
-};
+```py
+class Solution:
+    def findContentChildren(self, g: list[int], s: list[int]) -> int:
+        ptr1 =0
+        ptr2 =0
+        count =0
+        g.sort()
+        s.sort()
+        while(ptr1 < len(g) and ptr2 < len(s)):
+            if(s[ptr2]>= g[ptr1]):
+                count+=1
+                ptr1+=1
+                ptr2+=1
+            else:
+                ptr2+=1
+        
+        return count
 ```
 
 ---
