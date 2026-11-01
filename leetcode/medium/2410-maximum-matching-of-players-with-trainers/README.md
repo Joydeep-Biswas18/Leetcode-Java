@@ -49,36 +49,29 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 32 ms (beats 36.22%)  
-**Memory:** 90.4 MB (beats 64.55%)  
-**Submitted:** 2026-11-01T13:07:15.429Z  
+**Language:** Python  
+**Runtime:** 80 ms (beats 64.92%)  
+**Memory:** 34.6 MB (beats 38.73%)  
+**Submitted:** 2026-11-01T13:38:09.335Z  
 
-```java
-class Solution {
-    public int matchPlayersAndTrainers(int[] players, int[] trainers) {
-        // same problem as Assign Cookies Leetcode 455
-        int pointer1 =0;
-        //pointer of players array
-        int pointer2 =0;
-        // pointer of trainers array
-        int count =0;
-        Arrays.sort(players);
-        Arrays.sort(trainers);
+```py
+class Solution:
+    def matchPlayersAndTrainers(self, players: list[int], trainers: list[int]) -> int:
+        ptr1 = 0
+        ptr2 = 0
+        count = 0
+        players.sort()
+        trainers.sort()
+        while ptr1 < len(players) and ptr2 < len(trainers):
+            if players[ptr1] <= trainers[ptr2]:
+                count += 1
+                ptr1 += 1
+                ptr2 += 1
+            else:
+                ptr2 += 1
 
-        while(pointer1 < players.length && pointer2 < trainers.length){
-            if(players[pointer1]<=trainers[pointer2]){
-                count ++;
-                pointer1++;
-                pointer2++;
-            }
-            else{
-                pointer2++;
-            }
-        }
-        return count;
-    }
-}
+        return count
+
 ```
 
 ---
