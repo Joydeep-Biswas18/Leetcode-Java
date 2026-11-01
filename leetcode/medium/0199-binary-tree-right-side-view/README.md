@@ -45,47 +45,42 @@ Given the `root` of a binary tree, imagine yourself standing on the  **right sid
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 77.80%)  
-**Memory:** 43.1 MB (beats 91.69%)  
-**Submitted:** 2026-11-01T08:13:53.166Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 14.8 MB (beats 94.74%)  
+**Submitted:** 2026-11-01T08:21:10.446Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
  */
 class Solution {
-    public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> ds = new ArrayList<>();
-        Right_sude_View_func(root , 0 ,ds);
+public:
+    vector<int> rightSideView(TreeNode* root) {
+        vector<int> ds ;
+        RightSideViewFunc(root , 0 , ds);
         return ds;
-
     }
-    public static void Right_sude_View_func(TreeNode root , int level , List<Integer> ds){
-        if(root == null){
+    void RightSideViewFunc(TreeNode* root , int level , vector<int> &ds){
+        if(root == NULL){
             return;
         }
         if(level == ds.size()){
-            ds.add(root.val);
+            ds.push_back(root->val);
         }
-        Right_sude_View_func(root.right , level+1 ,ds);
-        Right_sude_View_func(root.left , level+1 , ds);
-
+        RightSideViewFunc(root->right , level +1 ,ds);
+        RightSideViewFunc(root->left , level + 1, ds);
 
     }
-}
+};
 ```
 
 ---
