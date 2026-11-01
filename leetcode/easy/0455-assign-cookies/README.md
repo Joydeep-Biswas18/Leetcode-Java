@@ -46,33 +46,32 @@ You need to output 2.
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 15 ms (beats 63.97%)  
-**Memory:** 50.9 MB (beats 92.59%)  
-**Submitted:** 2026-11-01T12:50:00.227Z  
+**Language:** C++  
+**Runtime:** 11 ms (beats 35.51%)  
+**Memory:** 44.9 MB (beats 45.09%)  
+**Submitted:** 2026-11-01T12:55:48.873Z  
 
-```java
+```cpp
 class Solution {
-    public int findContentChildren(int[] g, int[] s) {
-        int count =0;
+public:
+    int findContentChildren(vector<int>& g, vector<int>& s) {
+        int count = 0;
         int ptr1 = 0;
-        int ptr2 =0;
-        Arrays.sort(g);
-        Arrays.sort(s);
-        while(ptr1<g.length && ptr2 <s.length){
-            if(g[ptr1]<= s[ptr2]){
+        int ptr2 = 0;
+        sort(g.begin(), g.end());
+        sort(s.begin(), s.end());
+        while (ptr2 < s.size() && ptr1 < g.size()) {
+            if (s[ptr2] >= g[ptr1]) {
                 count++;
                 ptr1++;
                 ptr2++;
-            }
-            else{
+            } else {
                 ptr2++;
             }
         }
         return count;
-
     }
-}
+};
 ```
 
 ---
