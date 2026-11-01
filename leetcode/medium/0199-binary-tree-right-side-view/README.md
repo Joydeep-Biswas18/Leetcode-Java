@@ -45,42 +45,38 @@ Given the `root` of a binary tree, imagine yourself standing on the  **right sid
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 14.8 MB (beats 94.74%)  
-**Submitted:** 2026-11-01T08:21:10.446Z  
+**Memory:** 19.3 MB (beats 62.85%)  
+**Submitted:** 2026-11-01T08:28:17.988Z  
 
-```cpp
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
-public:
-    vector<int> rightSideView(TreeNode* root) {
-        vector<int> ds ;
-        RightSideViewFunc(root , 0 , ds);
-        return ds;
-    }
-    void RightSideViewFunc(TreeNode* root , int level , vector<int> &ds){
-        if(root == NULL){
-            return;
-        }
-        if(level == ds.size()){
-            ds.push_back(root->val);
-        }
-        RightSideViewFunc(root->right , level +1 ,ds);
-        RightSideViewFunc(root->left , level + 1, ds);
+```py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 
-    }
-};
+class Solution:
+    def rightSideView(self, root: TreeNode | None) -> list[int]:
+        ds = []
+        self.rightSideViewFunc(root, 0, ds)
+        return ds
+
+    def rightSideViewFunc(
+        self, root: TreeNode | None, level: int, ds: list[int]
+    ) -> None:
+
+        if root is None:
+            return
+
+        if level == len(ds):
+            ds.append(root.val)
+
+        self.rightSideViewFunc(root.right, level + 1, ds)
+        self.rightSideViewFunc(root.left, level + 1, ds)
+
 ```
 
 ---
