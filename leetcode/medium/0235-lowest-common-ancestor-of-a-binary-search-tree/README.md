@@ -48,37 +48,32 @@ Output: 2
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 22 ms (beats 70.99%)  
-**Memory:** 23.6 MB (beats 5.60%)  
-**Submitted:** 2026-11-02T12:18:37.068Z  
+**Language:** Python  
+**Runtime:** 66 ms (beats 53.12%)  
+**Memory:** 22.7 MB (beats 43.84%)  
+**Submitted:** 2026-11-02T12:20:51.493Z  
 
-```cpp
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
+```py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
-class Solution {
-public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root == NULL){
-            return NULL;
-        }
-        if(p->val < root->val && q->val < root->val){
-            return lowestCommonAncestor(root->left , p,q);
-        }
-        if(p->val > root->val && q->val > root->val){
-            return lowestCommonAncestor(root->right , p ,q);
-        }
-        return root;
-    }
-};
+
+class Solution:
+    def lowestCommonAncestor(
+        self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
+    ) -> "TreeNode":
+        if root is None:
+            return None
+        if p.val < root.val and q.val < root.val:
+            return self.lowestCommonAncestor(root.left, p, q)
+        if p.val > root.val and q.val > root.val:
+            return self.lowestCommonAncestor(root.right, p, q)
+        return root
+
 ```
 
 ---
