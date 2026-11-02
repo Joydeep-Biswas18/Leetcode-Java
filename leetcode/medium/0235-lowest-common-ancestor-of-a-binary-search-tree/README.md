@@ -50,8 +50,8 @@ Output: 2
 
 **Language:** Java  
 **Runtime:** 6 ms (beats 97.90%)  
-**Memory:** 47.3 MB (beats 81.91%)  
-**Submitted:** 2026-11-02T11:58:27.830Z  
+**Memory:** 47.1 MB (beats 87.59%)  
+**Submitted:** 2026-11-02T12:16:06.342Z  
 
 ```java
 /**
@@ -66,18 +66,18 @@ Output: 2
 
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null || root == p || root == q) {
+        if (root == null) {
+            return null;
+        }
+        if(p.val <root.val && q.val < root.val){
+            return lowestCommonAncestor(root.left , p ,q);
+        }
+        if(p.val >root.val && q.val > root.val){
+            return lowestCommonAncestor(root.right , p ,q);
+        }
+        else{
             return root;
         }
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left == null) {
-            return right;
-        }
-        if (right == null) {
-            return left;
-        }
-        return root;
 
     }
 }
