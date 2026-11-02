@@ -48,39 +48,37 @@ Output: 2
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 6 ms (beats 97.90%)  
-**Memory:** 47.1 MB (beats 87.59%)  
-**Submitted:** 2026-11-02T12:16:06.342Z  
+**Language:** C++  
+**Runtime:** 22 ms (beats 70.99%)  
+**Memory:** 23.6 MB (beats 5.60%)  
+**Submitted:** 2026-11-02T12:18:37.068Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
  */
 
 class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) {
-            return null;
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(root == NULL){
+            return NULL;
         }
-        if(p.val <root.val && q.val < root.val){
-            return lowestCommonAncestor(root.left , p ,q);
+        if(p->val < root->val && q->val < root->val){
+            return lowestCommonAncestor(root->left , p,q);
         }
-        if(p.val >root.val && q.val > root.val){
-            return lowestCommonAncestor(root.right , p ,q);
+        if(p->val > root->val && q->val > root->val){
+            return lowestCommonAncestor(root->right , p ,q);
         }
-        else{
-            return root;
-        }
-
+        return root;
     }
-}
+};
 ```
 
 ---
