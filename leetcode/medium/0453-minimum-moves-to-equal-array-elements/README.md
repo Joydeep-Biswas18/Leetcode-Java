@@ -39,29 +39,23 @@ Output: 0
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 32 MB (beats 62.82%)  
-**Submitted:** 2026-11-03T12:24:13.026Z  
+**Language:** Python  
+**Runtime:** 20 ms (beats 7.71%)  
+**Memory:** 20.6 MB (beats 15.19%)  
+**Submitted:** 2026-11-03T12:27:23.186Z  
 
-```cpp
-class Solution {
-public:
-    int minMoves(vector<int>& nums) {
-        int count =0;
-        int min_ele = nums[0];
-        for(int num : nums){
-            min_ele = min(min_ele , num);
-        }
-        for(int num : nums){
-            if(num > min_ele){
-                count +=(num -min_ele);
-            }
-            
-        }
-        return count;
-    }
-};
+```py
+class Solution:
+    def minMoves(self, nums: list[int]) -> int:
+        min_ele = nums[0]
+        move = 0
+        for i in range(len(nums)):
+            min_ele = min(min_ele, nums[i])
+        for i in range(len(nums)):
+            if nums[i] > min_ele:
+                move += (nums[i] - min_ele)
+        return move
+
 ```
 
 ---
