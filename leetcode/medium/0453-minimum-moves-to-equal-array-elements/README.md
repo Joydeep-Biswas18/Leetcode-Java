@@ -39,31 +39,29 @@ Output: 0
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 2 ms (beats 96.62%)  
-**Memory:** 46.8 MB (beats 50.25%)  
-**Submitted:** 2026-11-03T12:22:23.278Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 32 MB (beats 62.82%)  
+**Submitted:** 2026-11-03T12:24:13.026Z  
 
-```java
+```cpp
 class Solution {
-    public int minMoves(int[] nums) {
-        int n = nums.length;
+public:
+    int minMoves(vector<int>& nums) {
         int count =0;
         int min_ele = nums[0];
-        for ( int i =0; i<n ; i++){
-            min_ele = Math.min(min_ele , nums[i]);
+        for(int num : nums){
+            min_ele = min(min_ele , num);
         }
         for(int num : nums){
-            if(num>min_ele)
-            count += (num - min_ele);
-        } 
-        // that is the main idea present behind this problem 
-        // Here say that increase n-1 elemenets by 1 i can tell that dcrease 1 elemenet by 1 yjese are equivalent
+            if(num > min_ele){
+                count +=(num -min_ele);
+            }
+            
+        }
         return count;
-        
     }
-    
-}
+};
 ```
 
 ---
