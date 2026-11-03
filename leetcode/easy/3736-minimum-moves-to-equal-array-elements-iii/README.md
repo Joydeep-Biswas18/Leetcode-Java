@@ -52,26 +52,26 @@ Now, all elements of `nums` are equal to 5. The minimum total moves is `2`.
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 2 ms (beats 29.52%)  
-**Memory:** 45.7 MB (beats 96.33%)  
-**Submitted:** 2026-11-03T11:39:02.344Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 31.5 MB (beats 79.45%)  
+**Submitted:** 2026-11-03T11:40:32.318Z  
 
-```java
+```cpp
 class Solution {
-    public int minMoves(int[] nums) {
-        //i only do increase the elements nums[i] by only 1 not decrease so i need to find the highest eleement at first
-        int max = nums[0];
+public:
+    int minMoves(vector<int>& nums) {
+        int max_ele = nums[0];
         for(int num : nums){
-            max = Math.max(max , num);
+            max_ele = max(max_ele , num);
         }
         int count =0;
-        for(int i =0; i<nums.length ; i++){
-            count +=(max- nums[i]);
+        for(int num : nums){
+            count += (max_ele - num);
         }
         return count;
     }
-}
+};
 ```
 
 ---
