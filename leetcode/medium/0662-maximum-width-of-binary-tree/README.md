@@ -51,9 +51,9 @@ Explanation: The maximum width exists in the second level with length 2 (3,2).
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 53.74%)  
-**Memory:** 44.5 MB (beats 88.77%)  
-**Submitted:** 2026-11-03T08:47:42.106Z  
+**Runtime:** 2 ms (beats 56.10%)  
+**Memory:** 44.8 MB (beats 73.69%)  
+**Submitted:** 2026-11-06T05:55:25.051Z  
 
 ```java
 /**
@@ -71,7 +71,6 @@ Explanation: The maximum width exists in the second level with length 2 (3,2).
  *     }
  * }
  */
-
 class Pair {
     TreeNode node;
     long data;
@@ -84,53 +83,44 @@ class Pair {
 
 class Solution {
     public int widthOfBinaryTree(TreeNode root) {
-
-        if (root == null) return 0;
-
+        if (root == null) {
+            return 0;
+        }
         Queue<Pair> q = new LinkedList<>();
         q.add(new Pair(root, 0));
 
         int max_width = 0;
-
         while (!q.isEmpty()) {
-
             int size = q.size();
-            long mmin = q.peek().data;
-
+            long prevMin = q.peek().data;
             long first = 0;
             long last = 0;
-
             for (int i = 0; i < size; i++) {
-
                 Pair p = q.poll();
-
-                long curr_id = p.data - mmin;
+                long curr_id = p.data - prevMin;
                 TreeNode node = p.node;
-
                 if (i == 0) {
                     first = curr_id;
                 }
-
                 if (i == size - 1) {
                     last = curr_id;
                 }
-
                 if (node.left != null) {
                     q.add(new Pair(node.left, curr_id * 2 + 1));
-                }
 
+                }
                 if (node.right != null) {
                     q.add(new Pair(node.right, curr_id * 2 + 2));
                 }
+
             }
-
             max_width = (int) Math.max(max_width, last - first + 1);
-        }
 
+        }
         return max_width;
+
     }
 }
-
 ```
 
 ---
