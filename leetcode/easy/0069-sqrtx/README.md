@@ -38,14 +38,15 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 2 ms (beats 40.93%)  
-**Memory:** 41.9 MB (beats 97.27%)  
-**Submitted:** 2026-11-07T13:46:45.150Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 8.4 MB (beats 79.60%)  
+**Submitted:** 2026-11-07T13:48:39.259Z  
 
-```java
+```cpp
 class Solution {
-    public int mySqrt(int x) {
+public:
+    int mySqrt(int x) {
         int low = 0;
         int high = x;
         int ans = 0;
@@ -56,12 +57,11 @@ class Solution {
                 low = mid + 1;
             } else {
                 high = mid - 1;
-
             }
         }
         return ans;
     }
-}
+};
 ```
 
 ---
