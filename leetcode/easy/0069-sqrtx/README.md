@@ -38,30 +38,26 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 8.4 MB (beats 79.60%)  
-**Submitted:** 2026-11-07T13:48:39.259Z  
+**Language:** Python  
+**Runtime:** 4 ms (beats 52.39%)  
+**Memory:** 19.1 MB (beats 76.45%)  
+**Submitted:** 2026-11-07T13:50:27.819Z  
 
-```cpp
-class Solution {
-public:
-    int mySqrt(int x) {
-        int low = 0;
-        int high = x;
-        int ans = 0;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (mid == 0 || mid <= x / mid) {
-                ans = mid;
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-        return ans;
-    }
-};
+```py
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        low = 0
+        high = x
+        ans = 0
+        while low <= high:
+            mid = low + (high - low) // 2
+            if mid == 0 or mid <= x // mid:
+                ans = mid
+                low = mid + 1
+            else:
+                high = mid - 1
+        return ans
+
 ```
 
 ---
