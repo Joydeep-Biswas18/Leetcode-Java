@@ -48,18 +48,20 @@ Explanation: The two servers in the first row can communicate with each other. 
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 2 ms (beats 100.00%)  
-**Memory:** 55.1 MB (beats 52.94%)  
-**Submitted:** 2026-11-09T16:25:42.781Z  
+**Language:** C++  
+**Runtime:** 2 ms (beats 61.59%)  
+**Memory:** 26.5 MB (beats 78.99%)  
+**Submitted:** 2026-11-09T16:27:56.847Z  
 
-```java
+```cpp
 class Solution {
-    public int countServers(int[][] grid) {
-        int m =grid.length;
-        int n = grid[0].length;
-        int [] row = new int[m];
-        int[] col = new int[n];
+public:
+    int countServers(vector<vector<int>>& grid) {
+        int m =grid.size();
+        int n = grid[0].size();
+        vector<int> row(m);
+        vector<int> col(n);
+       
         for(int i =0; i<m;i++){
             for(int j =0; j<n; j++){
                 if(grid[i][j] ==  1){
@@ -78,7 +80,7 @@ class Solution {
         }
         return ans;
     }
-}
+};
 ```
 
 ---
