@@ -46,17 +46,18 @@ Explanation: We can rotate mat 90 degrees clockwise two times to make mat equal 
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.9 MB (beats 91.86%)  
-**Submitted:** 2026-11-09T15:02:21.977Z  
+**Memory:** 14.8 MB (beats 27.80%)  
+**Submitted:** 2026-11-09T15:03:34.616Z  
 
-```java
+```cpp
 class Solution {
-    public boolean findRotation(int[][] mat, int[][] target) {
-        int n = mat.length;
+public:
+    bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
+        int n = mat.size();
         for (int rotation = 0; rotation < 4; rotation++) {
-            Boolean same = true;
+            bool same = true;
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
                     if (mat[i][j] != target[i][j]) {
@@ -78,8 +79,8 @@ class Solution {
         return false;
     }
 
-    public static void Rotate_matrix(int[][] nums){
-        int n = nums.length;
+    void Rotate_matrix(vector<vector<int>>&nums){
+        int n = nums.size();
         //Transposing
         for(int i =0; i<n; i++){
             for(int j =i+1; j<n ;j++){
@@ -96,7 +97,7 @@ class Solution {
                 }
             }
     }
-}
+};
 ```
 
 ---
