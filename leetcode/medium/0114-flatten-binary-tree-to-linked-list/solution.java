@@ -1,31 +1,24 @@
 class Solution {
+
+    TreeNode prev = null;
+
     public void flatten(TreeNode root) {
+        prev = null;
+        helper(root);
+    }
 
-        if(root == null) return;
+    public void helper(TreeNode node) {
 
-        Stack<TreeNode> st = new Stack<>();
-        st.push(root);
-
-        TreeNode prev = null;
-
-        while(!st.isEmpty()){
-
-            TreeNode curr = st.pop();
-
-            if(curr.right != null){
-                st.push(curr.right);
-            }
-
-            if(curr.left != null){
-                st.push(curr.left);
-            }
-
-            if(prev != null){
-                prev.right = curr;
-                prev.left = null;
-            }
-
-            prev = curr;
+        if(node == null){
+            return;
         }
+
+        helper(node.right);
+        helper(node.left);
+
+        node.right = prev;
+        node.left = null;
+
+        prev = node;
     }
 }
