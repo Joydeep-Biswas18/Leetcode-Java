@@ -49,40 +49,33 @@ Output: [0]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 1.77%)  
-**Memory:** 43.7 MB (beats 66.98%)  
-**Submitted:** 2026-11-10T08:59:32.528Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 43.4 MB (beats 82.05%)  
+**Submitted:** 2026-11-10T09:21:10.985Z  
 
 ```java
 class Solution {
+
+    TreeNode prev = null;
+
     public void flatten(TreeNode root) {
+        prev = null;
+        helper(root);
+    }
 
-        if(root == null) return;
+    public void helper(TreeNode node) {
 
-        Stack<TreeNode> st = new Stack<>();
-        st.push(root);
-
-        TreeNode prev = null;
-
-        while(!st.isEmpty()){
-
-            TreeNode curr = st.pop();
-
-            if(curr.right != null){
-                st.push(curr.right);
-            }
-
-            if(curr.left != null){
-                st.push(curr.left);
-            }
-
-            if(prev != null){
-                prev.right = curr;
-                prev.left = null;
-            }
-
-            prev = curr;
+        if(node == null){
+            return;
         }
+
+        helper(node.right);
+        helper(node.left);
+
+        node.right = prev;
+        node.left = null;
+
+        prev = node;
     }
 }
 ```
