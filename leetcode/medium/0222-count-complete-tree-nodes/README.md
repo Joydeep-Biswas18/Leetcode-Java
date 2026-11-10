@@ -46,63 +46,55 @@ Output: 1
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 48.8 MB (beats 87.48%)  
-**Submitted:** 2026-11-10T07:28:43.152Z  
+**Memory:** 31.1 MB (beats 97.73%)  
+**Submitted:** 2026-11-10T07:36:49.374Z  
 
-```java
+```cpp
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * struct TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
  */
 class Solution {
-    public int countNodes(TreeNode root) {
-        if(root==null){
+public:
+    int countNodes(TreeNode* root) {
+        if(root == NULL){
             return 0;
         }
-
-        int left_height = Count_left_subtree_height(root);
-        int right_height = Count_right_subtree_height(root);
-
-        //check if the height of both side are not same
+        int left_height = count_left_height(root);
+        int right_height = count_right_height(root);
         if(left_height == right_height){
             return (1<<left_height) -1;
         }
         else{
-            return 1 + countNodes(root.left) + countNodes(root.right);
+            return 1 + countNodes(root->left) + countNodes(root->right);
         }
-
-        
     }
-    public static int Count_left_subtree_height(TreeNode node){
+    int count_left_height(TreeNode* node){
         int height =0;
-        while(node!=null){
+        while(node){
             height++;
-            node = node.left;
+            node = node->left;
         }
         return height;
     }
-    public static int Count_right_subtree_height(TreeNode node){
-        int height =0;
-        while(node != null){
+    int count_right_height(TreeNode*node){
+        int height=0;
+        while(node){
             height++;
-            node = node.right;
+            node = node->right;
         }
         return height;
     }
-}
+};
 ```
 
 ---
