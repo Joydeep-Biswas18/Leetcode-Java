@@ -17,7 +17,7 @@ Return `s`  *after all rounds have been completed*.
  
 
 Original
-Java
+C++
  **Example 1:** 
 
 ```
@@ -56,29 +56,37 @@ s becomes "0" + "0" + "0" = "000", whose length is equal to k, so we return "000
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 98.69%)  
-**Memory:** 42.2 MB (beats 96.07%)  
-**Submitted:** 2026-11-16T05:38:01.788Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 8.9 MB (beats 65.07%)  
+**Submitted:** 2026-11-16T05:39:51.216Z  
 
-```java
+```cpp
+
 class Solution {
-    public String digitSum(String s, int k) {
-        while(s.length()>k){
-            StringBuilder temp = new StringBuilder();
+public:
+    string digitSum(string s, int k) {
+        while (s.length() > k) {
+            string temp = "";
             int n = s.length();
-            for(int i =0; i<n ; i+=k){
-                int sum =0;
-                for(int j =i; j<Math.min(i+k , n) ; j++){
-                    sum += s.charAt(j) -'0';
+
+            for (int i = 0; i < n; i += k) {
+                int sum = 0;
+
+                for (int j = i; j < min(i + k, n); j++) {
+                    sum += s[j] - '0';
                 }
-                temp.append(sum);
+
+                temp += to_string(sum);
             }
-            s = temp.toString();
+
+            s = temp;
         }
+
         return s;
     }
-}
+};
+
 ```
 
 ---
