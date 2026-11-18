@@ -56,16 +56,17 @@ Explanation: Only products 1 and 3 are both low fat and recyclable.
 
 ## Solution
 
-**Language:** SQL  
-**Runtime:** 673 ms (beats 34.10%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-11-18T05:37:23.077Z  
+**Language:** Python  
+**Runtime:** 349 ms (beats 8.60%)  
+**Memory:** 76.3 MB (beats 5.04%)  
+**Submitted:** 2026-11-18T05:48:06.103Z  
 
-```sql
-# Write your MySQL query statement below
-select product_id 
-from Products
-where low_fats ='Y' and recyclable ='Y';
+```py
+import pandas as pd
+
+def find_products(products: pd.DataFrame) -> pd.DataFrame:
+    return products.loc[((products['low_fats'] =='Y') & (products['recyclable'] =='Y')) ,['product_id']]
+    
 ```
 
 ---
