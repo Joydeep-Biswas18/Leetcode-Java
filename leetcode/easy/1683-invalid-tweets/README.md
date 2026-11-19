@@ -54,16 +54,18 @@ Tweet 2 has length = 33. It is an invalid tweet.
 
 ## Solution
 
-**Language:** SQL  
-**Runtime:** 514 ms (beats 98.33%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-11-19T05:24:44.256Z  
+**Language:** Python  
+**Runtime:** 363 ms (beats 5.19%)  
+**Memory:** 76.4 MB (beats 5.63%)  
+**Submitted:** 2026-11-19T05:31:23.431Z  
 
-```sql
-# Write your MySQL query statement below
-select tweet_id 
-from Tweets
-where CHAR_LENGTH(content) > 15;
+```py
+import pandas as pd
+
+def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:
+    return tweets[tweets['content'].str.len()>15][['tweet_id']]
+    
+
 ```
 
 ---
